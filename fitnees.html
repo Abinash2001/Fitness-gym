@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abinash fitness</title>
+    <style>
+        body{
+            width: 100vw;
+            height: 100vh;
+            margin: 0px;
+            padding: 0px 0px;
+            background-image: url('pexels-binyamin-mellish-116077.jpg') ;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            color: white;
+        }
+        .logo{
+            /*border: solid 2px rgb(255, 51, 0);*/
+            left: 30px;
+            top: 10px;
+            display: inline-block;
+            position: absolute;
+        }
+        .navbr{
+            margin: 25px auto;
+            /*border: solid 2px green;*/
+            display: block;
+            width: 35%;
+        }
+        .contact{
+            /*border: solid 2px blue;*/
+            right: 30px;
+            top: 20px;
+            display: inline-block;
+            position: absolute;
+        }
+        .btn{
+            background-color: black;
+            color: white;
+            padding: 4px;
+            margin: 2px 2px;
+            cursor: pointer;
+        }
+        .btn:hover{ 
+            background-color:  rgb(114, 111, 113);
+        }
+        .nav a{
+            margin: 15px;
+            text-decoration: none;
+            color: white;
+        }
+        .nav :hover{
+            color: rgb(114, 111, 113);
+            text-decoration: underline;
+        }   
+        .logo img{
+            width: 55px;
+            margin: 0px 22px;
+        }
+        .logo p{
+            margin: 0px;
+        }
+        .detail{
+            border: solid 5px white;
+            margin: 100px 130px;
+            padding: 50px;
+            width: 28%;
+            border-radius: 25px;
+        }
+        .submit{
+            /*margin: 4px 156px; */
+            /* padding: 1px 14px; */
+            border-radius: 15px;
+            color: white;
+            background-color: black;
+            display: block;
+            margin: auto;
+            width: 140px;
+        }
+        .h2{
+            text-align: center;
+            /*margin: 2px 40px;
+            width: 310px;*/
+        }
+        .formgroup input{
+            text-align: center;
+            display: block;
+            padding: 5px 75px;
+            margin: 5px;
+            border-radius: 15px;
+            font-size: 14px;
+        }
+        .formgroup{
+            margin: 5px 25px;
+        }
+        body [url]{
+            width: 100vw;
+            height: 100vh;
+            display: block;
+        }
+        @media (max-width:550px)
+        {
+            /* .formgroup{
+                margin: 22px -37px;
+            } */
+            .navbr {
+                margin: 100px 60px;
+                display: block;
+                width: 100%;
+            }
+            .formgroup input {
+                text-align: center;
+                display: block;
+                margin: auto;
+                border-radius: 15px;
+                font-size: 12px;
+            }
+            .formgroup {
+                margin: auto;
+            }
+            .nav a {
+                margin: 7px;
+                text-decoration: none;
+                color: white;
+            }
+            .detail{
+                border: solid 5px white;
+                margin: 15px;
+                padding: 50px;
+                width: 68%;
+                border-radius: 25px;
+            }
+            .h2{
+                text-align: center;
+                padding-bottom: 35px;
+            }
+        }
+        .form{
+            display: inline-block;
+        }
+        </style>
+</head>
+<body>
+    <header class="container">
+        <div class="logo">
+           <img src="bodybuilding-concept-with-gorilla_225004-372.jpg" alt="">
+           <p>Abinash fitness</p>
+        </div>
+        <div class="navbr">
+            <ul class="nav">
+                <ls><a href="#">Home</a></ls>
+                <ls><a href="#">About</a></ls>
+                <ls><a href="#">Fitness calculator</a></ls>
+                <ls><a href="#">Contact us</a></ls>
+            </ul>
+        </div>
+        <div class="contact">
+            <button class="btn">Call Us</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="detail">
+        <h2 class="h2">Join the bets GYM of Ichapur</h2>
+        <form action="noaction,php">
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your name">
+                <input type="number" name="" placeholder="Enter your age">
+                <input type="text" name="" placeholder="Enter your gender">
+                <input type="number" name="" placeholder="Enter your mobile number">
+                <input type="text" name="" placeholder="Enter your email">
+            </div>
+            <button class="submit">submit</button>
+        </form>
+</body>
+</html>
